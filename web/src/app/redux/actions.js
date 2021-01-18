@@ -1,0 +1,17 @@
+export const ADD_TODO = "ADD_TODO";
+export const ADD_TODOS = "ADD_TODOS";
+export const REMOVE_TODO = "REMOVE_TODO";
+export const COMPLETE_TODO = "COMPLETE_TODO";
+export const EDIT_TODO = "EDIT_TODO";
+export const SHOW_COMPLTED_TODOS = "SHOW_COMPLETER_TODOS";
+export const IS_FETCHING = "IS_FETCHING";
+export const FETCH_DATA = "FETCH_DATA";
+export const SYNC_DATA = "SYNC_DATA";
+export const IS_SYNC_REQUIRED = "IS_SYNC_REQUIRED";
+export const ADD_TAG = "ADD_TAG";
+export const ADD_TAGS = "ADD_TAGS";
+export const REMOVE_TAG = "REMOVE_TAG";
+export const EDIT_TAG = "EDIT_TAG";
+export const ADD_TAG_FOR_TODO = "ADD_TAG_FOR_TODO";
+export const REMOVE_TAG_FOR_TODO = "REMOVE_TAG_FOR_TODO";
+export const EDIT_TAG_FOR_TODO = "EDIT_TAG_FOR_TODO";

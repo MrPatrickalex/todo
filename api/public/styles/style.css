@@ -1,0 +1,76 @@
+body {
+    background-color: #f5f5f5;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.recipes {
+    width: 300px;
+    /* margin: 0 auto; */
+}
+
+.recipe {
+    box-shadow: 10px 5px 15px gray;
+}
+
+.box-test {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.star {
+cursor: pointer; height: 25px; width: 25px; margin: 2px; float: left;
+background-color: grey; 
+clip-path: polygon( 50% 0%, 63% 38%, 100% 38%, 69% 59%, 82% 100%, 50% 75%, 18% 100%, 31% 59%, 0% 38%, 37% 38%
+); } 
+
+.star.selected { background-color: red; }
+
+.star-rating {
+    height: 50px;
+}
+
+.color-note {
+    border: 1px solid black;
+}
+
+.todo-item:not(:first-child) {
+    margin-top: 15px;
+}
+
+.todo-completed {
+    text-decoration: line-through;
+}
+
+.time-label {
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+}
+
+.tag {
+    background-color: red;
+    border-radius: 5px;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

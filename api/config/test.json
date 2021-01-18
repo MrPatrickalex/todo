@@ -1,0 +1,8 @@
+{
+    "Server": {
+        "port": 3002
+    },
+    "Db": {
+        "conn_str": "mongodb+srv://mrpatrickalex:superparol20@cluster0.pgyzl.mongodb.net/todos_test?retryWrites=true&w=majority"
+    }
+}
